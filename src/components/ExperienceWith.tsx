@@ -12,7 +12,7 @@ export function ExperienceWith() {
         <div >
         <img
               src="/experience.png"
-               className=" ml-10 "
+              //  className=" ml-10 "
             />
           
           {/* <div className="glass rounded-xl p-6">
