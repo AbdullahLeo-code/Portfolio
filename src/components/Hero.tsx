@@ -19,7 +19,7 @@ export function Hero() {
           content around <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FF6B6B] to-[#9B6BFF]">UI/UX!</span>
         </h1>
         <p className="text-gray-300 text-lg mb-12 max-w-2xl mx-auto">
-          I am a Junior UI/UX Designer with over a year of experience, including part-time graphic
+          I'm a UI/UX Designer with over a year of experience, including part-time graphic
           design work. I have a strong foundation in WordPress design and am proficient in
           JavaScript, CSS, and HTML, allowing me to create seamless and user-friendly digital
           experiences.
