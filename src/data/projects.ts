@@ -24,7 +24,7 @@ export const projects: Project[] = [
     featured: true,
     details: {
       role: "Lead UI/UX Designer",
-      duration: "3 months",
+      duration: "2 weeks",
       challenges: [
         "Simplify complex ordering workflows",
         "Design intuitive table management",
