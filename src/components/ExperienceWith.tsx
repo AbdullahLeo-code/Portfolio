@@ -1,9 +1,13 @@
-import React from 'react';
+
 
 export function ExperienceWith() {
   return (
-    <section className="py-24" id="experiencewith">
-      <div className="max-w-7xl mx-auto px-4">
+    <section className="py-24" id="experiencewith"  style={{
+        boxShadow: 'inset 0px 12px 0px rgba(128, 0, 128, 0.5)', // Purple inner shadow at the top
+      }}>
+      <div className="max-w-7xl mx-auto px-4 "
+      
+      >
         <h2 className="text-3xl font-bold text-white mb-12 flex justify-center"
          style={{
            background: 'linear-gradient(90deg, #FDFDFD, #FFFFFF)',

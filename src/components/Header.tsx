@@ -1,9 +1,31 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Menu } from 'lucide-react';
 
 export function Header() {
+
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <header className="fixed w-full z-50 top-0 left-0">
+    <header 
+    className={`fixed w-full z-50 top-0 left-0 ${
+      isScrolled
+        ? 'backdrop-filter backdrop-blur-lg border-b border-neutral-800'
+        : ''
+    }`}
+    >
       <div className="max-w-7xl mx-auto px-4 py-6">
         <nav className="flex justify-between items-center">
           <a href="#" className="text-2xl font-bold text-white">

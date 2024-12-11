@@ -1,10 +1,10 @@
-import React from 'react';
-import { Mail, Instagram, Twitter, Youtube, LinkedinIcon } from 'lucide-react';
+import { Mail, LinkedinIcon } from 'lucide-react';
+import Spline from '@splinetool/react-spline';
 
 export function Contact() {
   return (
-    <section id="contact" className="py-20">
-      <div className="max-w-3xl mx-auto px-4">
+    <section id="contact" className="py-20 px-20">
+      <div className=" mx-auto px-4">
         <h2 className="text-2xl font-bold text-white mb-6">Contact</h2>
         <p className="text-gray-300 mb-8">
           Experienced UI/UX Designer with over a year of expertise in creating
@@ -28,10 +28,13 @@ export function Contact() {
             className="w-6 h-6 object-fit"
           />
             </a>
-          
+        
           </div>
+       
         </div>
+     
       </div>
+      
     </section>
   );
 }

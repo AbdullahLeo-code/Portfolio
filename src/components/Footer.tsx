@@ -1,5 +1,6 @@
 import React from 'react';
 import { Github, Linkedin, Mail } from 'lucide-react';
+import Spline from '@splinetool/react-spline';
 
 export function Footer() {
   return (
@@ -23,7 +24,9 @@ export function Footer() {
                 <Mail className="w-6 h-6" />
               </a>
             </div>
+
           </div>
+         
           
           <div className="mt-8 pt-8 border-t border-white/10 text-center text-gray-400">
             <p>&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>
