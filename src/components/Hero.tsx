@@ -4,7 +4,7 @@ export function Hero() {
   return (
     <section className="min-h-screen flex flex-col items-center justify-center text-center px-4">
       <div className="max-w-3xl mx-auto">
-        <div className="mb-8 mt-40">
+        <div className="mb-8 mt-28">
           <div className="w-32 h-32 mx-auto relative">
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#FF8660] to-[#8000FF]" />
             <img

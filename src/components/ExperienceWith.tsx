@@ -9,10 +9,10 @@ export function ExperienceWith() {
            background: 'linear-gradient(90deg, #FDFDFD, #FFFFFF)',
            WebkitBackgroundClip: 'text',
            WebkitTextFillColor: 'transparent', }}>EXPERIENCE WITH</h2>
-        <div className='flex justify-center ml-20'>
+        <div >
         <img
               src="/experience.png"
-            //   className="relative w-full h-full rounded-full p-0.5"
+               className=" ml-10 "
             />
           
           {/* <div className="glass rounded-xl p-6">
