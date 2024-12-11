@@ -25,7 +25,7 @@ export function Hero() {
           experiences.
         </p>
         <div className="flex gap-4 justify-center">
-          <a href="#contact" className=" px-8 py-3 rounded-full text-black hover:text-white/90 bg-white font-semibold">
+          <a href="#contact" className=" px-8 py-3 rounded-full text-black hover:text-black/90 bg-white font-semibold">
             Get in Touch
           </a>
           <a href="/abdullah.pdf" className="glass px-8 py-3 rounded-full text-white hover:text-white/90 border border-white/20">
