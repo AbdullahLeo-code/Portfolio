@@ -26,11 +26,10 @@ export function Hero() {
       </span>
     </h1>
     <p className="text-gray-300 text-lg mb-12 max-w-2xl mx-auto">
-      I'm a UI/UX Designer with over a year of experience, including part-time
-      graphic design work. I have a strong foundation in WordPress design and
-      am proficient in JavaScript, CSS, and HTML, allowing me to create
-      seamless and user-friendly digital experiences.
-    </p>
+      I’m Abdullah Shuaib, a UI/UX Designer with over a year of experience, including
+      graphic design expertise. I have a strong foundation in WordPress design
+      and am proficient in JavaScript, CSS, and HTML, enabling me to create seamless,
+      user-friendly digital experiences.    </p>
     <div className="flex gap-4 justify-center">
       <a
         href="#contact"
