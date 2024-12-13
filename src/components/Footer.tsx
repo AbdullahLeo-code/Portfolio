@@ -20,7 +20,7 @@ export function Footer() {
               <a href="https://linkedin.com" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin className="w-6 h-6" />
               </a>
-              <a href="mailto:am94833@gmail.com" className="text-gray-400 hover:text-white transition-colors">
+              <a href="mailto:abdullahshuaib1030@gmail.com" className="text-gray-400 hover:text-white transition-colors">
                 <Mail className="w-6 h-6" />
               </a>
             </div>
