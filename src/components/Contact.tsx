@@ -1,16 +1,18 @@
 import { Mail, LinkedinIcon } from 'lucide-react';
-import Spline from '@splinetool/react-spline';
 
 export function Contact() {
   return (
-    <section id="contact" className="py-20 px-20">
-      <div className=" mx-auto px-4">
+    <section id="contact" className="p-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
         <h2 className="text-2xl font-bold text-white mb-6">Contact</h2>
+
         <p className="text-gray-300 mb-8">
           Experienced UI/UX Designer with over a year of expertise in creating
           intuitive and visually appealing user interfaces. Skilled in designing
           seamless, user-centered experiences across digital platforms.
         </p>
+
         <div className="glass rounded-xl p-6">
           <div className="flex items-center gap-2 text-gray-300 mb-4">
             <Mail className="w-5 h-5" />
@@ -34,7 +36,6 @@ export function Contact() {
         </div>
      
       </div>
-      
     </section>
   );
 }

@@ -40,15 +40,15 @@ export const projects: Project[] = [
     link: "#"
   },
   {
-    title: "InfoSynex",
-    description: "Information management and sharing platform",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80",
+    title: "Identifysuite",
+    description: "Identify is a user-friendly platform tailored for sellers and prep centers.",
+    image: "/identifysuite.png",
     tags: ["UI/UX Design", "Web App", "Figma"],
     link: "#"
   },
   {
     title: "Crypto Wallet",
-    description: "Crypto trading and portfolio management app",
+    description: "Crypto Trading and Portfolio Management App Guide",
     image: "/crypto.png",
     tags: ["UI Design", "Mobile App", "Prototyping"],
     link: "#"

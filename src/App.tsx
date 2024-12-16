@@ -5,6 +5,7 @@ import { Work } from './components/Work';
 import { Experience } from './components/Experience';
 import { Contact } from './components/Contact';
 import { ExperienceWith } from './components/ExperienceWith';
+import { About } from './components/About';
 
 export function App() {
   return (
@@ -15,6 +16,7 @@ export function App() {
         <ExperienceWith/>
         <Work />
         <Experience />
+        <About/>
         <Contact />
       </main>
     </div>
