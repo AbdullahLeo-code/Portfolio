@@ -66,11 +66,11 @@ export function About() {
         {/* Right Column */}
         <div className="relative">
           <img
-            src="/5779865.jpg"
+            src="/uiux.png"
             alt="Design Process"
             className="rounded-lg"
           />
-          <div className="absolute inset-0 glass rounded-lg opacity-20"></div>
+          <div className="absolute inset-0 pointer-events-none"></div>
         </div>
       </div>
     </div>
