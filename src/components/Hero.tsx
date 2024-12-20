@@ -4,7 +4,7 @@ export function Hero() {
   return (
     <section className="min-h-screen relative flex flex-col items-center justify-center text-center px-4">
   <Spline
-    scene="https://prod.spline.design/J2MsgQUyoX4wS4OJ/scene.splinecode"
+    scene="https://prod.spline.design/5RHHb1qB8VnVqzio/scene.splinecode"
     className="absolute inset-0 w-full h-full"
   />
   <div className="relative z-10 max-w-3xl mx-auto">
