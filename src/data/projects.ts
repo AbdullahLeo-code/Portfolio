@@ -47,7 +47,7 @@ export const projects: Project[] = [
     link: "#"
   },
   {
-    title: "SoftDrop Rider",
+    title: "SwiftDrop Rider",
     description: "Streamlining deliveries with order tracking, navigation, and earnings management.",
     image: "/rider.png",
     tags: ["UI Design", "Mobile App", "Prototyping"],
