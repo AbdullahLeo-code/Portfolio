@@ -42,14 +42,14 @@ export const projects: Project[] = [
   {
     title: "Identifysuite",
     description: "Identify is a user-friendly platform tailored for sellers and prep centers.",
-    image: "/identifysuite.png",
+    image: "/identify.png",
     tags: ["UI/UX Design", "Web App", "Figma"],
     link: "#"
   },
   {
-    title: "Crypto Wallet",
-    description: "Crypto Trading and Portfolio Management App Guide",
-    image: "/crypto.png",
+    title: "SoftDrop Rider",
+    description: "Streamlining deliveries with order tracking, navigation, and earnings management.",
+    image: "/rider.png",
     tags: ["UI Design", "Mobile App", "Prototyping"],
     link: "#"
   }
