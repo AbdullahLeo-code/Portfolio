@@ -3,10 +3,10 @@ import Spline from '@splinetool/react-spline';
 export function Hero() {
   return (
     <section className="min-h-screen relative flex flex-col items-center justify-center text-center px-4">
-  <Spline
-    scene="https://prod.spline.design/BPJ1eIBAOtgERf-D/scene.splinecode"
+  {/* <Spline
+    scene="https://prod.spline.design/wn79kxjFPIIZR58O/scene.splinecode"
     className="absolute inset-0 w-full h-full"
-  />
+  /> */}
   <div className="relative z-10 max-w-3xl mx-auto">
     <div className="mb-8 mt-28">
       <div className="w-32 h-32 mx-auto relative">
