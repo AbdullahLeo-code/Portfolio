@@ -1,4 +1,14 @@
 import { Palette, Users, Lightbulb } from "lucide-react";
+import React, { FC, ReactNode } from "react";
+
+interface LampContainerProps {
+  children: ReactNode;
+}
+
+export const LampContainer: FC<LampContainerProps> = ({ children }) => {
+  return <div className="lamp-container p-4">{children}</div>;
+};
+
 
 export function About() {
   return (

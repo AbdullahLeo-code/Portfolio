@@ -7,6 +7,8 @@ import { Contact } from './components/Contact';
 import { ExperienceWith } from './components/ExperienceWith';
 import { About } from './components/About';
 
+
+
 export function App() {
   return (
     <div className="min-h-screen bg-[#111111]">

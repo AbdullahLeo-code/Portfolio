@@ -16,27 +16,27 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "POS Point of Sale",
-    description: "Modern POS system with intuitive interface for restaurants",
-    image: "/pointofSale.png",
+    title: "StreamX",
+    description: "Stream Mobile Games Anytime, Anywhere",
+    image: "/streamX.png",
     tags: ["UI Design", "UX Research", "Figma"],
     link: "#",
     featured: true,
     details: {
       role: "Lead UI/UX Designer",
-      duration: "2 weeks",
+      duration: "1 week",
       challenges: [
-        "Simplify complex ordering workflows",
-        "Design intuitive table management",
-        "Create efficient payment processing flow"
+        "Streamline live streaming workflows",
+        "Design intuitive gaming overlays",
+        "Optimize audience interaction tools"
       ]
     }
   },
   {
-    title: "Task Management",
-    description: "A mobile app for managing tasks and team collaboration",
-    image: "/task.png",
-    tags: ["UI/UX Design", "Mobile App", "Figma"],
+    title: "Infosynex",
+    description: "Professional website for digital solutions.",
+    image: "/infosynex.png",
+    tags: ["UI/UX Design", "Website", "Figma"],
     link: "#"
   },
   {
