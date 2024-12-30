@@ -34,7 +34,7 @@ export const projects: Project[] = [
   },
   {
     title: "Infosynex",
-    description: "Professional website for digital solutions.",
+    description: "Professional website for innovative digital solutions.",
     image: "/infosynex.png",
     tags: ["UI/UX Design", "Website", "Figma"],
     link: "#"
